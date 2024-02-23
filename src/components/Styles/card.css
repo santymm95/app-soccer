@@ -1,0 +1,75 @@
+/* Estilos para el contenedor de los partidos */
+.container-inf {
+    display: flex;
+    justify-content:center;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+
+  input{
+    border: none;
+    border-bottom: 1px solid black;
+    
+  }
+
+  .partido{
+    background-image: linear-gradient(to left, #BDBBBE 0%, #9D9EA3 100%), radial-gradient(88% 271%, rgba(255, 255, 255, 0.25) 0%, rgba(254, 254, 254, 0.25) 1%, rgba(0, 0, 0, 0.25) 100%), radial-gradient(50% 100%, rgba(255, 255, 255, 0.30) 0%, rgba(0, 0, 0, 0.30) 100%);
+    background-blend-mode: normal, lighten, soft-light;
+        color: #444444;
+    width: 100%;
+    padding: 15px;
+    border-radius: 10px 10px 0px 0px;
+    margin-bottom: 10px;
+  }
+  
+  /* Estilos para cada "card" de partido */
+  .partido-container {
+    text-align: center;
+    background-color:#ebebeb;
+    width: calc(25% - 20px); /* Tamaño predeterminado y teniendo en cuenta el espacio entre las cards */
+    border-radius: 8px;
+  
+    box-shadow: 5px 10px 15px rgba(0, 0, 0, 0.189);
+  }
+  
+  /* Estilos para la información de cada partido */
+  .partido-info {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  
+  /* Estilos para la fecha y la hora */
+  .partido-fecha-hora {
+    font-weight: bold;
+    color: #333;
+  }
+  
+  /* Estilos para los nombres de los equipos */
+  .equipo-nombre {
+    color:#1d4ed8;
+    font-weight: bold;
+  }
+
+  input{
+    border-radius: 5px;
+    padding: 5px;
+    width: 20%;
+  }
+  
+  /* Estilos para la línea divisoria entre los partidos */
+  .divisor {
+    border-top: 1px solid #ccc;
+    margin-top: 20px;
+  }
+  
+  /* Media query para dispositivos móviles */
+  @media screen and (max-width: 768px) {
+    .container-inf {
+      flex-direction: column;
+    }
+    
+    .partido-container {
+      width: 100%; /* Ocupar todo el ancho en dispositivos móviles */
+    }
+  }
+  

@@ -1,0 +1,47 @@
+.App {
+  background-color: #e8e8e8;
+  height: 100vh;
+  width: 100%;
+ 
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+ 
+
+div .App{
+  height: 1000px;
+  
+}
+
+.custom-electronic-notice-container {
+  width: 100%;
+  overflow: hidden;
+  padding: 10px;
+  margin-bottom: 3%;
+  border-bottom: 2px solid black;
+  
+}
+
+.custom-electronic-notice {
+  display: inline-block;
+  white-space: nowrap;
+  animation: marquee 20s linear infinite; /* Ajusta la duración y el tiempo de la animación según tu preferencia */
+}
+
+.custom-electronic-notice p {
+  font-size: 18px;
+  font-weight: bold;
+  color: #333;
+  margin: 0;
+}
+
+@keyframes marquee {
+  from {
+    transform: translateX(100%);
+  }
+  to {
+    transform: translateX(-100%);
+  }
+}

@@ -1,0 +1,52 @@
+/* JugadoresTarjetas.css */
+.goleadores-container{
+  padding: 20px;
+  text-align: center;
+}
+/* Estilos para el contenedor principal */
+.container-jugadores-tarjetas{
+
+    text-align: center;
+    padding: 20px;
+}
+.jugadores-tarjetas-container {
+    margin-top: 20px;
+    
+  }
+  
+  /* Estilos para la tabla */
+  table {
+   
+    width: 100%;
+    border-collapse: collapse;
+  }
+
+  tr th{
+    background-image: linear-gradient(to left, #BDBBBE 0%, #9D9EA3 100%), radial-gradient(88% 271%, rgba(255, 255, 255, 0.25) 0%, rgba(254, 254, 254, 0.25) 1%, rgba(0, 0, 0, 0.25) 100%), radial-gradient(50% 100%, rgba(255, 255, 255, 0.30) 0%, rgba(0, 0, 0, 0.30) 100%);
+ background-blend-mode: normal, lighten, soft-light;
+    
+  }
+  
+  /* Estilos para las celdas de la tabla */
+  th, td {
+    padding: 8px;
+    border: 1px solid #ddd;
+    text-align: left;
+    
+  }
+  
+  /* Estilos para la fila de encabezado de la tabla */
+  th {
+    background-color: #f2f2f2;
+  }
+  
+  /* Estilos para las filas impares de la tabla */
+  tr:nth-child(odd) {
+    background-color: #f9f9f9;
+  }
+  
+  /* Estilos para las filas al pasar el ratón sobre ellas */
+  tr:hover {
+    background-color: #e9e9e9;
+  }
+  
